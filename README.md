@@ -18,12 +18,12 @@ Note, synchronizes the time from web browser, ands shows the current time in use
 Special style class names are applied for alert and overtime, that you can apply in your theme:
 
     /* Default styles for the Clock */
-	.clock {
+        .clock {
     }
 
     /* Alert time styles for the Clock */
     .clock.alert {
-	color: orange; 
+        color: orange; 
     }
   
     /* Overtime styles for the Clock */
