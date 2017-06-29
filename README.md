@@ -1,8 +1,10 @@
 Clock component for Vaadin
 ==============
 
-This is a special Clock component that displays time in hours, minutes and seconds in 24h format.
-Note, synchronizes the time from web browser, so shows the current time in users timezone.
+This is a digital 24h Clock component that displays time in hours, minutes and seconds in standard 24h format.
+Includes API for setting "alert" and "overtime" timeouts that change the CSS for the clock.
+Note, synchronizes the time from web browser, ands shows the current time in users timezone.
+
 
 		// Create a Clock
 		Clock clock = new Clock();
